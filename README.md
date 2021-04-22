@@ -3,7 +3,6 @@
 1 : Dans un langage orienté objet la unité de test peut tester :
 
     b. Une fonction
-    d. Une classe
 
 2 : Quel(s) phrase(s) décrivent la méthodologie TDD:
 
@@ -18,10 +17,9 @@
 
 4 : Lorsque j’écris un tests je détermine les paramètres en utilisant :
 
-    a. Des valeurs limites
+    b. Des valeurs incorrectes
     c. Des valeurs calculées
 
 5 : Le concept de Mock me permet lors de l’écriture des tests :
 
     b. De simuler le fonctionnement d’une dépendance
-    c. De remplacer une dépendance en production

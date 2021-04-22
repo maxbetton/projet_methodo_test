@@ -3,6 +3,8 @@ import org.junit.jupiter.api.Assertions;
 
 public class Test {
 
+    private Main main = new Main();
+
     @org.junit.jupiter.api.Test
     public void test_join(){
 
@@ -20,7 +22,7 @@ public class Test {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(6); list.add(9); list.add(12);
 
-        double sum = new Main().sum(list);
+        double sum = main.sum(list);
 
         Assertions.assertEquals(sum, 9);
     }
@@ -32,7 +34,7 @@ public class Test {
         list.add(15);
         list.add(0);
 
-        double sum = new Main().sum(list);
+        double sum = main.sum(list);
 
         Assertions.assertEquals(sum, 5);
     }
@@ -42,7 +44,7 @@ public class Test {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(-100); list.add(100); list.add(30);
 
-        double sum = new Main().sum(list);
+        double sum = main.sum(list);
 
         Assertions.assertEquals(sum, 10);
     }
@@ -51,7 +53,7 @@ public class Test {
     public void test_moy4(){
         ArrayList<Integer> list = new ArrayList<>();
 
-        double sum = new Main().sum(list);
+        double sum = main.sum(list);
 
         Assertions.assertEquals(sum, Double.NaN);
     }
