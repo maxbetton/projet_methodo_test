@@ -1,8 +1,5 @@
 import org.junit.jupiter.api.Assertions;
-import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
 
-@RunWith(MockitoJUnitRunner.class)
 public class Test {
 
     private SwimmingPool swimmingPool = new SwimmingPool(30, new float[]{25, 9, 30, 15, 33, 23, 34});

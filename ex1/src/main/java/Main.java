@@ -1,9 +1,10 @@
+import java.util.ArrayList;
+
 public class Main {
-    public static void main(String[] args)
-    {
-        System.out.println("test");
-    }
-    public void test() {
-        System.out.println("oighsourdfb");
+
+    public double sum(ArrayList list){
+        double total = 0;
+        for (Object o : list) total += new Double((Integer) o);
+        return total / list.size();
     }
 }
